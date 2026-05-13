@@ -1,28 +1,106 @@
-プライバシーポリシー
-1. はじめに 
-本プライバシーポリシーは、[MLauncher]（以下、「本アプリ」）が提供するサービスにおける、ユーザーの情報の取り扱いについて説明するものです。
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - MLauncher</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: var(--card-bg);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #111827;
+            display: flex;
+            align-items: center;
+        }
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background-color: var(--primary-color);
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+        .important-box {
+            background-color: #fff7ed;
+            border-left: 4px solid #f97316;
+            padding: 20px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
 
-2. 取得する情報および利用目的
- 本アプリは、GoogleカレンダーAPIを利用して以下の情報を取得しますが、これらは記載された目的の範囲内でのみ利用されます。
+        <h2>1. はじめに</h2>
+        <p>本プライバシーポリシーは、<strong>MLauncher</strong>（以下、「本アプリ」）が提供するサービスにおける、ユーザーの情報の取り扱いについて説明するものです。</p>
 
-カレンダーの予定情報（タイトル、日時、場所など）:
-利用目的：本アプリ内でのスケジュール表示およびカスタム通知機能の提供のため
+        <h2>2. 取得する情報および利用目的</h2>
+        <p>本アプリは、GoogleカレンダーAPIを利用して以下の情報を取得しますが、これらは記載された目的の範囲内でのみ利用されます。</p>
+        <ul>
+            <li><strong>カレンダーの予定情報（タイトル、日時、場所など）:</strong><br>利用目的：本アプリ内でのスケジュール表示およびカスタム通知機能の提供のため</li>
+            <li><strong>カレンダーのID:</strong><br>利用目的：特定のカレンダーを識別し、同期を維持するため</li>
+        </ul>
 
-カレンダーのID:
-利用目的：特定のカレンダーを識別し、同期を維持するため
+        <h2>3. データの保存と保護</h2>
+        <p>本アプリは、Googleから取得したカレンダーデータを、<strong>ローカル環境（ユーザーのPC内）でのみ一時的に保持し、外部サーバーへ保存・送信することはありません。</strong></p>
+        <p>ユーザーが本アプリとの連携を解除した場合、取得したデータは速やかに破棄されます。</p>
 
-3. データの保存と保護
-本アプリは、Googleから取得したカレンダーデータを[例：サーバーには保存せず、ブラウザ内でのみ一時的に保持します / 暗号化された状態でデータベースに保存し、厳重に管理します]。
+        <h2>4. データの第三者提供</h2>
+        <p>本アプリは、取得したユーザーデータを第三者に販売、共有、または提供することはありません。ただし、法令に基づく場合を除きます。</p>
 
-ユーザーが本アプリとの連携を解除した場合、取得したデータは[例：速やかに破棄されます]。
+        <h2>5. Google APIに関する声明（重要）</h2>
+        <div class="important-box">
+            本アプリによる Google API から受け取った情報の使用および他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy?hl=ja" target="_blank">Google API サービス ユーザーデータに関するポリシー</a>（限定公開の要件を含む）に従います。
+        </div>
 
-4. データの第三者提供
- 本アプリは、取得したユーザーデータを第三者に販売、共有、または提供することはありません。ただし、法令に基づく場合を除きます。
+        <h2>6. お問い合わせ</h2>
+        <p>本ポリシーに関するご質問は、以下の連絡先までお問い合わせください。</p>
+        <p>連絡先: <a href="mailto:sonimaru@kishugiken.co.jp">sonimaru@kishugiken.co.jp</a></p>
 
-5. Google APIに関する声明（重要）
-本アプリによる Google API から受け取った情報の使用および他のアプリへの転送は、Google API サービス ユーザーデータに関するポリシー（限定公開の要件を含む）に従います。
-
-6. お問い合わせ
-本ポリシーに関するご質問は、以下の連絡先までお問い合わせください。
-
-連絡先: sonimaru@kishugiken.co.jp
+        <a href="./home.html" class="back-link">← ホームに戻る</a>
+    </div>
+</body>
+</html>
